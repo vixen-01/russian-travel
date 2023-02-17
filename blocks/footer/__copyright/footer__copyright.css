@@ -1,0 +1,13 @@
+.footer__copyright {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: auto;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    text-align: right;
+}

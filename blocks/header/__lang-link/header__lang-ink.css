@@ -1,0 +1,22 @@
+.header__lang-ink {
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    width: 30px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-ink {
+        max-width: 22px;
+        max-height: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+.place__title {
+    margin: 0;
+    padding: 0;
+    max-width: 460px;
+    max-height: 152px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        margin-top: 80px;
+        max-width: 440px;
+        max-height: 152px;
+    }
+
+    .place:first-child {
+        margin-top: 92px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        margin-top: 50px;
+        max-width: 340px;
+        max-height: 92px;
+    }
+
+    .place:first-child {
+        margin-top: 141px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        margin-top: 50px;
+        max-width: 288px;
+        max-height: 35px;
+        width: 100%;
+    }
+
+    .place:first-child {
+        margin-top: 64px;
+    }
+}
