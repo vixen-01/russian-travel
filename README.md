@@ -16,8 +16,3 @@
 
 ## Ссылка на проект:
 https://github.com/vixen-01/russian-travel
-
-
-
-
-
