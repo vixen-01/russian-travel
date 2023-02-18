@@ -30,7 +30,6 @@
         margin: 73px 24px 0 24px;
         width: calc(100% - 2*24px);
         height: auto;
-        width: 100%;
     }
 
     .place:first-child {
@@ -43,7 +42,6 @@
         margin: 80px 48px 0 48px;
         width: calc(100% - 2*24px);
         height: auto;
-        width: 100%;
     }
 
     .place:first-child {

@@ -9,7 +9,6 @@
         margin: 92px 48px 0 48px;
         width: calc(100% - 2*48px);
         height: auto;
-        width: 100%;
     }
 }
 
@@ -18,7 +17,6 @@
         margin: 142px 24px 0 24px;
         width: calc(100% - 2*24px);
         height: auto;
-        width: 100%;
     }
 }
 
