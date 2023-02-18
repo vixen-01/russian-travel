@@ -1,6 +1,5 @@
 .photo-grid {
     margin: 98px 48px 0 48px;
-    width: 100%;
     max-width: 1184px;
     max-height: 671px;
     display: grid;
@@ -15,7 +14,6 @@
         width: calc(100% - 2*48px);
         height: auto;
         gap: 14px;
-        width: 100%;
     }
 }
 
@@ -25,7 +23,6 @@
         width: calc(100% - 2*24px);
         height: auto;
         gap: 16px;
-        width: 100%;
     }
 }
 
@@ -35,6 +32,5 @@
         width: calc(100% - 2*16px);
         height: auto;
         gap: 12px;
-        width: 100%;
     }
 }
