@@ -1,27 +1,27 @@
 .places {
   display: grid;
   grid-template-rows: auto;
-  margin: 92px calc(148 / 1280 * 100%);
+  margin: 0 calc(148 / 1280 * 100%);
   padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    margin: 92px 48px;
+    margin: 0 48px;
     gap: 80px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    margin: 142px 24px;
+    margin: 0 24px;
     gap: 73px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    margin: 64px 0;
+    margin: 0;
     gap: 49px;
   }
 }

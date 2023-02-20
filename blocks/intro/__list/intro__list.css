@@ -1,7 +1,6 @@
 .intro__list {
     margin: 15px 0;
-    width: 690px;
-    height: 90px;
+    max-width: 690px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;

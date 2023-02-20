@@ -3,7 +3,6 @@
     color: white;
     list-style-type: none;
     width: 30px;
-    height: 28px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -11,6 +10,7 @@
     line-height: 28px;
     text-align: right;
     padding: 0;
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 320px) {

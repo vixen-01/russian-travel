@@ -3,10 +3,14 @@
     width: 1184px;
     height: 18px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 320px) {
     .footer {
+        max-width: 320px;
+        display: block;
         flex-direction: column;
     }
 }
