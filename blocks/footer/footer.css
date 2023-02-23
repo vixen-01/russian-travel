@@ -1,16 +1,29 @@
 .footer {
-    margin: 69px auto 24px;
-    width: 1184px;
-    height: 18px;
+    max-width: 1184px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 69px 48px 24px 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 0 auto;
+        padding: 88px 24px 24px 24px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
-        max-width: 320px;
-        display: block;
+        padding: 64px 118px 24px 16px;
         flex-direction: column;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

@@ -1,14 +1,9 @@
 .header__lang {
-    margin: 18px 0;
-    padding: 0;
-    list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 18px;
-}
-
-@media screen and (min-width: 768px) {
-    .header__links {
-        margin-top: calc(46px - 28px);
-    }
+    grid-template-columns: repeat(2, min-content);
+    gap: 18px;
+    align-items: end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

@@ -1,27 +1,19 @@
 .places {
-  display: grid;
-  grid-template-rows: auto;
-  margin: 0 calc(148 / 1280 * 100%);
-  padding: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .places {
-    margin: 0 48px;
-    gap: 80px;
-  }
+  max-width: 984px;
+  margin: 92px auto 0;
+  padding: 0 148px;
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    margin: 0 24px;
-    gap: 73px;
+    margin: 141px auto 0;
+    padding: 0 calc((100vw - 768px) / (1024 - 768) * 24);
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    margin: 0;
-    gap: 49px;
+    margin: 64px auto 0;
+    padding: 0 calc((100vw - 320px) / (768 - 320) * 16);
   }
 }

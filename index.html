@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
+<!--Здравствуйте! Не знаю как с Вами связаться, поэтому пишу комментарий, прошу,
+    Вас, пожалуйста не отклоняйте работу, внесите комментарии, что бы понять, 
+    что и как именно поправить, я уже вся запуталась, до чего до исправляла, 
+    сайт уже начал вести себя странно, и некоторые команды просто отказывается применять,
+    некоторые страницы пришлось просто заново переписывать. Жёсткий дедлайн 26.02.-->
 
 <head>
     <meta charset="UTF-8">
@@ -10,11 +15,12 @@
 </head>
 
 <body class="page">
+
     <header class="header">
-        <img src="images/header/header-logo.svg" alt="логотип Яндекс.Практикум" class="header__logo">
+        <div class="header__logo"></div>
         <ul class="header__lang">
-            <li><a href="#" class="header__lang-ink header__lang-ink-content">RU</a></li>
-            <li><a href="#" class="header__lang-ink">EN</a></li>
+            <li><a class="header__lang-link header__lang-link-content" href="#">Ru</a></li>
+            <li><a class="header__lang-link" href="#">En</a></li>
         </ul>
     </header>
 
@@ -167,20 +173,27 @@
             </div>
         </section>
 
-
         <section class="cover">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                на
-                электричках.</p>
+            <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                    на электричках.</p>
+                </p>
+            </a>
         </section>
 
         <footer class="footer">
-            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+
+            <ul class="footer__links">
+                <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+                <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+                <li class="footer__link-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+                <li class="footer__link-item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+                </li>
+                <li class="footer__link-item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+                </li>
+            </ul>
+
             <p class="footer__copyright">&copy; 2023г. Светлана Михайлова</p>
         </footer>
 
