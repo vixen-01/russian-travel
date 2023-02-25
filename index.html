@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-<!--Здравствуйте! Не знаю как с Вами связаться, поэтому пишу комментарий, прошу,
-    Вас, пожалуйста не отклоняйте работу, внесите комментарии, что бы понять, 
-    что и как именно поправить, я уже вся запуталась, до чего до исправляла, 
-    сайт уже начал вести себя странно, и некоторые команды просто отказывается применять,
-    некоторые страницы пришлось просто заново переписывать. Жёсткий дедлайн 26.02.-->
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +14,7 @@
     <header class="header">
         <div class="header__logo"></div>
         <ul class="header__lang">
-            <li><a class="header__lang-link header__lang-link-content" href="#">Ru</a></li>
+            <li><a class="header__lang-link header__lang-link_content" href="#">Ru</a></li>
             <li><a class="header__lang-link" href="#">En</a></li>
         </ul>
     </header>
@@ -46,31 +41,40 @@
                 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
                 отпуска.</p>
             <ul class="intro__list">
-                <li>Часовых поясов 11</li>
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
+                <li>Часовых поясов <span class="intro__active">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__active">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__active">16</span></li>
+                <li>Природных заповедников <span class="intro__active">105</span></li>
+                <li>Аэропортов <span class="intro__active">241</span> </li>
             </ul>
         </section>
 
-        <div class="photo-grid"> 
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-tuman.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-train.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-sochi.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-kondratiev.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-2.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-1.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-ergaki.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-elbrus.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-2.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-atharva-tulsi.png" alt="">
-            <img class="photo-grid__item" src="images/photo-grid/photo-grid-arisa.png" alt="">
-        </div>
+        <section class="photo-grid" aria-label="секция с фотографиями">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-tuman.png"
+                alt="Фотография поля на рассвете в лёгкой дфмке тумана, с рулонами сена, на одном из них стоит собака крупных пород. ">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-train.png"
+                alt="Вид из окна поезда на берег реки с берёзами.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-sochi.png"
+                alt="Вид на лес сверху сквозь туман.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-kondratiev.png"
+                alt="Фотография на переднем плане дорожный знак пешехоный переход.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-2.png" alt="Ви на гору.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-1.png" alt="Вид сверху на гору.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-ergaki.png"
+                alt="Горные вершины сквозь облака.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-elbrus.png"
+                alt="Фотография вершины горы Эльбрус.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal.png"
+                alt="Вид на озеро байкал с песчанным берегом и горами на занем фоне.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-2.png" alt="Вид на озеро и скалы.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-atharva-tulsi.png"
+                alt="Вид сверху на горные вершины через облака.">
+            <img class="photo-grid__item" src="images/photo-grid/photo-grid-arisa.png"
+                alt="Большое колесо на толще льда озер баукал.">
+        </section>
 
         <section class="places">
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <img class="place__image" src="./images/places/place-kosa.png"
                     alt="фотография Куршского залива: каменистое дно и голубое небо в облаках.">
@@ -87,20 +91,20 @@
                         немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету,
                         окуная в спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Кольский</h2>
                 <img class="place__image" src="./images/places/place-kolsky.png" alt="фотография вершин гор в снегу">
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
                     <a href="https://www.nationalgeographic.com/" class="place__link">National Geographic</a>
                 </div>
-                <div class="place__description">
-                    <p class="place__paragraph">
+                <div>
+                    <p class="place__paragraph place__description">
                         Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
                         которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-                    <p class="place__paragraph">
+                    <p class="place__paragraph place__description">
                         Возможно, вы смотрели Звягинцева и даже слышали историю арктического
                         фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний
                         об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой
@@ -108,9 +112,9 @@
                         начинает сбываться с билетом
                         в Мурманск.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Алтай</h2>
                 <img class="place__image" src="./images/places/place-altai.png"
                     alt="Фотография: вид из окна на зелёные листья деревьев, на подоконнике стоит ноутбук.">
@@ -118,21 +122,22 @@
                     <p class="place__url-heading">URL</p>
                     <a href="https://www.youtube.com/" class="place__link">YouTube</a>
                 </div>
-                <div class="place__description">
-                    <p class="place__paragraph">
+                <div>
+                    <p class="place__paragraph place__description">
                         Алтай — одно из красивейших мест в России.
                         В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами,
                         горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым
                         чудом здешних мест — горным воздухом.</p>
-                    <p class="place__paragraph">
+                    <p class="place__paragraph place__description">
                         Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы
                         увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами
-                        летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
+                        летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского
+                        края.
                     </p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <img class="place__image" src="./images/places/place-winter-baikal.png"
                     alt="Фотография на которой широкие трещины прерывают ледяное полотно озера Байкал.">
@@ -150,9 +155,9 @@
                         к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019
                         года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Карелия</h2>
                 <img class="place__image" src="./images/places/place-karelia.png"
                     alt="фотография с видом на водоём сквозь зелёные насаждения на берегу.">
@@ -166,37 +171,39 @@
                         леса
                         карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым
                         соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце
-                        раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы.
+                        раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь
+                        тропы.
                         А на редких тропинках деревья
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                 </div>
-            </div>
+            </article>
         </section>
 
         <section class="cover">
             <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
                     на электричках.</p>
             </a>
         </section>
+    </main>
 
-        <footer class="footer">
-
+    <footer class="footer">
+        <nav>
             <ul class="footer__links">
                 <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-                <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-                <li class="footer__link-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+                <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+                </li>
+                <li class="footer__link-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+                </li>
                 <li class="footer__link-item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
                 </li>
                 <li class="footer__link-item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
                 </li>
             </ul>
-
-            <p class="footer__copyright">&copy; 2023г. Светлана Михайлова</p>
-        </footer>
-
-    </main>
+        </nav>
+        <p class="footer__copyright">&copy; 2023г. Светлана Михайлова</p>
+    </footer>
 </body>
 
 </html>

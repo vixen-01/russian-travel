@@ -3,26 +3,21 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
-    margin: 92px auto 0;
-    padding: 0 48px;
+    margin: 0 auto;
+    padding: 92px 48px 0 48px;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .photo-grid {
-      margin: 92px auto 0;
-      padding: 0 48px 0;
-    }
-  }
-  
+
   @media screen and (max-width: 768px) {
     .photo-grid {
-      margin: 35px auto 0;
-      padding: 0 24px 0;
+      padding-top: 35px;
+      padding-left: 24px;
+      padding-right: 24px;
     }
   }
-  
+
   @media screen and (max-width: 320px) {
     .photo-grid {
+      padding-top: 35px;
       grid-template-columns: fit-content(288px);
       gap: 12px;
     }

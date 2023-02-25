@@ -1,47 +1,29 @@
 .place__title {
     margin: 0;
     padding: 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
+    font-size: calc(2rem + (100vw - 1024px) / (1280 - 768) * (72 - 32));
     line-height: 76px;
     /* or 106% */
 }
 
 @media screen and (max-width: 1024px) {
     .place__title {
-        margin-top: 80px;
-        font-size: 72px;
-        line-height: 76px;
-    }
-
-    .place:first-child {
-        margin-top: 92px;
+        font-size: calc(2rem + (100vw - 768px) / (1024 - 768) * (72 - 42));
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-        margin-top: 50px;
         font-size: 42px;
         line-height: 46px;
     }
-
-    .place:first-child {
-        margin-top: 141px;
-    }
 }
-
 
 @media screen and (max-width: 320px) {
     .place__title {
-        margin-top: 50px;
         font-size: 32px;
-
-    }
-
-    .place:first-child {
-        margin-top: 64px;
+        margin-bottom: 32px;
     }
 }

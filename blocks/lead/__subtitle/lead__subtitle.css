@@ -2,16 +2,17 @@
     max-width: 640px;
     margin: 32px auto 0;
     text-align: center;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: calc(36 / 30);
+    line-height: 36px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .lead__subtitle {
-        margin: calc(1rem + (100vw - 320px) / (768 - 320) * (32 - 16)) auto 0;
-        font-size: calc(1rem + (100vw - 320px) / (768 - 320) * (30 - 16));
+        max-width: 288px;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
     }
 }
