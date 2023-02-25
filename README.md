@@ -15,4 +15,4 @@
 
 
 ## Ссылка на проект:
-https://github.com/vixen-01/russian-travel/index.html 
+https://vixen-01.github.io/russian-travel
