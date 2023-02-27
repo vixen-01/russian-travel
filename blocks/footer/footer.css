@@ -12,14 +12,12 @@
         max-width: 92.5vw;
     }
 }
-
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 90.72vw;
         padding-top: 90px;
     }
 }
-
 @media screen and (max-width: 768px) {
     .footer {
         max-width: 90.72vw;
@@ -27,8 +25,7 @@
         padding-bottom: 24px;
     }
 }
-
-@media screen and (max-width :320px) {
+@media screen and (max-width: 320px) {
     .footer {
         max-width: 90vw;
     }
