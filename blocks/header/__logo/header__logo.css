@@ -5,6 +5,16 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    align-items: end;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+    }
 }
 
 @media screen and (max-width: 320px) {

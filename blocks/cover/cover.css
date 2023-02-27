@@ -1,23 +1,26 @@
 .cover {
     max-width: 1184px;
-    margin: 0 auto 0;
-    padding: 115px 0 0;
+    margin: 115px auto 0;
+    padding: 0;
 }
 
 @media (max-width: 1024px) {
     .cover {
-        padding-top: 92px;
+        margin-top: 85px;
+        max-width: 1024px;
     }
 }
 
 @media (max-width: 768px) {
     .cover {
-        padding-top: 90px;
+        padding: calc(4rem + (100vw - 320px) / (768 - 320) * (92 - 66)) 0 calc(4rem + (100vw - 320px) / (768 - 320) * (92 - 64));
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .cover {
-        padding-top: 66px;
+        max-width: 320px;
+        min-height: 216px;
+        margin: 0;
     }
 }

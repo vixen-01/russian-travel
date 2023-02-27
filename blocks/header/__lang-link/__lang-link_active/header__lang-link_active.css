@@ -1,0 +1,5 @@
+.header__lang-link_active {
+    border-bottom: 0.5px solid white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

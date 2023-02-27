@@ -1,0 +1,19 @@
+.place__image-paragraph {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__image-paragraph {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image-paragraph {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+}
